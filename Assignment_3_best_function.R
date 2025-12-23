@@ -1,3 +1,5 @@
+# Funció best programming assignment 3: 2a versió funcional
+
 best <- function(state, outcome){
   
   outcome_care <- read.csv(
@@ -20,11 +22,8 @@ best <- function(state, outcome){
 
 best("NY", 11)
 
+# Comprovar si el codi fucniona correctament
 
 outcome_care$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack[
   outcome_care$Hospital.Name == "GLENDALE ADVENTIST MEDICAL CENTER"
-]
 
-
-
-Session -> Restart R
