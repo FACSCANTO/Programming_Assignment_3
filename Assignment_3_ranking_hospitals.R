@@ -30,11 +30,12 @@ rankhospital <- function(state, outcome, num = "best", outcome_care) {
   
   data_state <- data_state[
     order(as.numeric(data_state[, outcome]),
-          data_state$Hospital.Name),
-  ]
+          data_state$Hospital.Name),]
+  
   
   data_state$Hospital.Name[num]
-}
+  
+  }
 
 
 
